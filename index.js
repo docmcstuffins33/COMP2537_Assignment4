@@ -26,7 +26,7 @@ const setup = async () => {
     function second() {
         seconds++
         timer = setTimeout(second, 1000)
-        if(Math.floor(Math.random() * 10) == 0 && firstCard == undefined && secondCard == undefined && !flipping) {
+        if(Math.floor(Math.random() * 25) == 0 && firstCard == undefined && secondCard == undefined && !flipping) {
             console.log("powerup")
             flipping = true
             alert("Powerup!!!")
